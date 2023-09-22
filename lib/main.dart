@@ -1,15 +1,21 @@
 import 'package:flutter/material.dart';
 
 void main() {
-	runApp(
-		const MaterialApp(
-			title: 'Todo List',
+	return runApp(
+		MaterialApp(
 			home: Scaffold(
-				body: Center(
-					child: Text('hello world')
+				appBar: AppBar(
+				title: Text('Todo List'),
+				),
+				body: Column(
+				children: [
+					Container(
+					child: Text('hi'),
+					),
+					],
+					),
 				),
 			),
-		),
 	);
 }
 				
